@@ -1,12 +1,23 @@
 # Simple-Clock-Project
 Simple Display of a non ticking clock
 
-  Chada Tech is a software engineering company that specializes in custom software design and development for both domestic
-and international clients. You read more about the company and decide this place would be a great fit for you. You are also happy to find that there is an opening for a junior developer and apply for the position immediately. The skills that you have acquired at SNHU have prepared you for this role. Consequently, you are selected for an interview!
 
-As part of the Chada Tech interview process, you are asked to complete a coding skills test to “audition” for the role. This is a typical interviewing strategy that you may encounter in the field. Companies utilize this technique to ensure candidates can in fact do what they claim they can do. Therefore, this exercise will be based on a problem similar to what you will face in the junior developer role, and you will need to come up with a solution. This is your chance to really show them what you can do!
+Problem Statement
 
-The Chada Tech interviewing team has provided you with the following problem statement and a document containing a set of functional requirements:
+Chada Tech has domestic and international clients. To meet international standard ISO 8601, Chada Tech
+wants their clients to be able to view a 12- and a 24-hour clock on their website rather than just the
+standard 12-hour clock.
 
-Chada Tech has domestic and international clients. To meet international standard ISO 8601, Chada Tech wants their clients to be able to view a 12- and a 24-hour clock on their website rather than just the standard 12-hour clock.
-To stand out as a top candidate, you will need to apply program logic by creating two clocks that display simultaneously and allow for user input using secure and efficient C++ code.
+Functional Requirements
+1. Clock12: Time should be displayed in 12-hour format where the clock does not exceed 12:59:59.
+2. Clock24: Time should be displayed in 24-hour format where the clock does not exceed 23:59:59.
+3. Both clocks should display on the screen with the current time in the proper format. For
+4. Your solution should allow the user to exit the program as well as add one hour, minute, or
+second to both clocks from a user menu.
+5. Once a selection is made from the user menu, the program should take action based on that
+choice. Both clocks must display on the screen simultaneously in the proper format next to each
+other. 
+
+To Run:
+
+build and run clock.cpp 
